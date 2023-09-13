@@ -5,5 +5,7 @@
 
 	IDEA 2- Fetch flights and hotels for travelling and places to visit there; 
 // maybe have everyone choose a place they want to go or really like;
+
 // "https://rapidapi.com/DataCrawler/api/tripadvisor16";
+
 // "https://rapidapi.com/traveltables/api/cost-of-living-and-prices/";
