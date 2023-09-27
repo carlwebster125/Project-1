@@ -1,4 +1,3 @@
-console.log('blah')
 
 let departureAirportCode = document.getElementById("flightDepartureAirport")
 let arrivalAirportCode = document.getElementById("flightArrivalAirport")
