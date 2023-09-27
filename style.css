@@ -1,1 +1,14 @@
+.class-height{
+  height: 30px;
+}
 
+.booking-from-box
+{
+  max-width: 350px;
+border: 1px solid #ced4da;
+margin: 10% auto;
+}
+.radio-btn
+{
+  margin: 0;
+}
