@@ -16,72 +16,13 @@
       crossorigin="anonymous"
     />
 
-    <!-- <title>Hello, world!</title> -->
+   
   </head>
   <body>
     <div>
       <h2 class="text-center">Going Places</h2>
     </div>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-
-      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            > -->
-      <!-- Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul> -->
-      <!-- <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form> -->
-      <!-- </div> -->
-    <!-- </nav> -->
+   
     <div class="card-deck">
       <div class="card">
         <img
@@ -101,12 +42,10 @@
             <small class="text-muted">Himeji Castle</small>
           </p>
           <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-outline-primary" type="button">
-              Find out more!
-            </button>
+           
           </div>
 
-          <!-- </form> -->
+         
         </div>
       </div>
 
@@ -124,14 +63,13 @@
             to see the rough textured roofs against a somber background like
             this.
           </p>
-          <p class="card text">
+          <p class="card-text">
             <small class="text-muted">Montepulciano</small>
           </p>
           <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-outline-primary" type="button">
-              Find out more!
-            </button>
-            <!-- <a href="#//https://painterlygirl.wordpress.com/" class="btn btn-outline-primary" type="button">Find out more!</a> -->
+            
+            
+           
           </div>
         </div>
       </div>
@@ -151,21 +89,19 @@
             <small class="text-muted">Virgin Beach</small>
           </p>
           <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-outline-primary" type="button">
-              Find out more!
-            </button>
+           
           </div>
         </div>
       </div>
     </div>
 
-  <div class="container">
+  <div class=" px-2  ">
 
     <section class="o-page-header">
         
         <div class="page-title row">
             <div class="col-12">
-                <h1>Find Your Flight</h1>
+                <h2 class= "text-center">Find Your Flight Here!</h2>
             </div>
 
             <hr>
@@ -176,9 +112,7 @@
     <section class="o-page-body">
         <form id="flightForm">
 
-            <section class="form-head">
-                <h2>Enter your information below</h2>
-            </section>
+           
 
             <section class="form-body">
 
@@ -210,49 +144,47 @@
 
         <div class="flight-results mt-4">
 
-            <div class="results-header">
-                <p>Please confirm your information below:</p>
-            </div>
+            
 
             <div class="results-wrapper">
-                <div class="row">
+                <div class="row ">
                     <hr>
 
-                    <div class="col-2 label-departure">
+                    <div class="  col-4 col-md-2 label-departure">
                         <p>Departure Airport Address:</p>
                     </div>
 
-                    <div class="col-10 border border-primary" id="departResult">
+                    <div class="col-8 col-md-10 border border-primary" id="departResult">
                       
 
                     </div>
                 </div>
                 
-                <div class="row mt-4">
+                <div class="row px-2 mt-4">
                     <hr>
 
-                    <div class="col-2 label-departure">
-                        <p>Arrival Airport Address</p>
+                    <div class="col-4  col-md-2 label-departure">
+                        <p>Arrival Airport Address:</p>
                     </div>
 
-                    <div class="col-10 border border-primary" id="arriveResult">
+                    <div class="col-8 col-md-10 border border-primary" id="arriveResult">
                       
 
                     </div>
                 </div>
 
-                <div class="row mt-4">
-                    <div class="col-2 label-arrival">
+                <div class="row px-2 mt-4">
+                    <div class="col-4 col-md-2 label-arrival">
                         <p> Departure Airport Temp:</p>
                     </div>
-                    <div class="col-10 border border-primary" id="departTemp"></div>
+                    <div class="col-8 col-md-10 border border-primary" id="departTemp"></div>
                 </div>
 
-                <div class="row mt-4">
-                    <div class="col-2 label-arrival">
+                <div class="row px-2 mt-4 mb-4">
+                    <div class="col-4 col-md-2 label-arrival">
                         <p>Arrival Airport Temp:</p>
                     </div>
-                    <div class="col-10 border border-primary" id="arriveTemp"></div>
+                    <div class="col-8 col-md-10 border border-primary" id="arriveTemp"></div>
                 </div>
 
             </div>
